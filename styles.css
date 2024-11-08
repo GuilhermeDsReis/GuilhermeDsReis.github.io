@@ -35,9 +35,9 @@ body {
 }
 
 .img {
-    background-color: rgb(252, 181, 110);
+    background-color: rgb(255, 255, 255);
     color: white;
-    width: 100%;
+    width: 200px;
     height: 200px;
     border-radius: 5px;
     display: grid;
@@ -54,25 +54,64 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: #5943ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);   
 }
 
 .produtos-sessao {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 100px;
+    margin-bottom: 20px;
 }
 
 .produtos-itens {
-    background-color: #fdf878;
-    padding: 50px;
+    background-color: #7b43ff;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 250px;
+    margin: auto;
 }
 
-.rodape { 
-    font-size: 0.6em;
-    margin-top: 20px;
+.produtos-itens img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.produtos-itens h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.produtos-itens p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.produtos-itens button {
+    background-color: #5943ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.produtos-itens a:hover {
+    background-color: #7b43ff;
+}
+
+
 
 a {
 /* Removed duplicate body selector */
@@ -99,6 +138,8 @@ footer {
     padding: 20px;
     text-align: start;
     margin-top: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 
